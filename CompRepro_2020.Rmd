@@ -23,14 +23,21 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 1) Create an R Project to pull this file from GitHub. 
 
+Done
+
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+Wilson et al. suggests that we want to document the code changes and clear software versions. With R we can specify the packages we used directly in the code so that they are accurate. Since R pipeline are only scripts, we can track changes via git and push changes to github and other researchers can see the changes and historical versions.
 
 3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
 
+```{r}
+4^13
+```
 
 4) Push this homework to the GitHub repository for the homework. 
 
+Done
 
 
 
